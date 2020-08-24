@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GTF_PASSPORT_COMM - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Son\AppData\Local\Temp\RSP45CE.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Release/" /Fp"Release/GTF_PASSPORT_COMM.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Work\설치파일\소리마치 여권스캐너\전체 최종납품(1125)\GTF용 통합 라이브러리\GTF_PASSPORT_COMM\GTF_PASSPORT_COMM.cpp"
+]
+Creating command line "cl.exe @C:\Users\Son\AppData\Local\Temp\RSP45CE.tmp" 
+Creating temporary file "C:\Users\Son\AppData\Local\Temp\RSP45CF.tmp" with contents
+[
+/nologo /subsystem:windows /dll /profile /map:"Release/GTF_PASSPORT_COMM.map" /machine:I386 /def:".\GTF_PASSPORT_COMM.def" /out:"..\_RunTime\Release\GTF_PASSPORT_COMM.DLL" /implib:"Release/GTF_PASSPORT_COMM.lib" 
+".\Release\Comm.obj"
+".\Release\CommCtrl.obj"
+".\Release\DawinCtrl.obj"
+".\Release\GTF_PASSPORT_COMM.obj"
+".\Release\Serial.obj"
+".\Release\StdAfx.obj"
+".\Release\WS420Ctrl.obj"
+".\Release\GTF_PASSPORT_COMM.res"
+]
+Creating command line "link.exe @C:\Users\Son\AppData\Local\Temp\RSP45CF.tmp"
+<h3>Output Window</h3>
+Compiling...
+GTF_PASSPORT_COMM.cpp
+Linking...
+   Creating library Release/GTF_PASSPORT_COMM.lib and object Release/GTF_PASSPORT_COMM.exp
+Creating command line "bscmake.exe /nologo /o"Release/GTF_PASSPORT_COMM.bsc"  ".\Release\StdAfx.sbr" ".\Release\Comm.sbr" ".\Release\CommCtrl.sbr" ".\Release\DawinCtrl.sbr" ".\Release\GTF_PASSPORT_COMM.sbr" ".\Release\Serial.sbr" ".\Release\WS420Ctrl.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+GTF_PASSPORT_COMM.DLL - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

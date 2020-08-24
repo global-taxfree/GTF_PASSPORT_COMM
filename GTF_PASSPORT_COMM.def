@@ -1,0 +1,20 @@
+; GTF_PASSPORT_COMM.def : Declares the module parameters for the DLL.
+
+LIBRARY      "GTF_PASSPORT_COMM"
+
+EXPORTS
+    ; Explicit exports can go here
+
+	OpenPort			@1
+	ClosePort			@2
+	Scan				@3
+	ScanCancel			@4
+	ReceiveData			@5
+	GetMRZ1				@6
+	GetMRZ2				@7
+	Clear				@8
+	GetPassportInfo		@9
+	CheckReceiveData	@10
+	OpenPortByNum		@11
+	OpenPortByNumber	@12
+	IsOpen				@13
